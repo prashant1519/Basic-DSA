@@ -1,6 +1,6 @@
 var arr=[1,2,3,4,5,6,7,8,9,10]
- var q=1;
-// var q=2;
+//  var q=1;
+ var q=2;
 var bag="";
 var bag1=""
 if(q==1){
