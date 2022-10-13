@@ -4,7 +4,7 @@ var n=8
 var day="Wednesday"
 for(var i=0;i<arr.length;i++){
     if(arr[i]==day){
-        var a=(i+n)%7
+        var a=i+(n%7)
     }
  
 }
