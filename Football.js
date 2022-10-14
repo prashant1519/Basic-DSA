@@ -1,6 +1,6 @@
 var arr=["A","B","A","B","A","B","B"]
-var bag=""
-var obj={}
+var bag="";
+var obj={};
 var max=-Infinity;
 for(var i=0;i<arr.length;i++){
     var str=arr[i]
@@ -11,7 +11,7 @@ for(var i=0;i<arr.length;i++){
         obj[str]+=1
     }
 }
-// console.log(obj)
+
 for(var key in obj){
 if(obj[key]>max){
     max=obj[key]
