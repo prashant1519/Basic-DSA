@@ -7,10 +7,9 @@ if(oo[i]==","){
     continue;
 }
 else{
-sum+= +oo[i];
+sum+= Number(oo[i]);
 }
 
     
 }
-
 console.log(sum)  
