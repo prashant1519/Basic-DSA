@@ -7,3 +7,4 @@ poo+=sum[j]
     }
     console.log(poo)
 }
+

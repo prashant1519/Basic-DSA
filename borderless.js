@@ -13,22 +13,34 @@ let bottom=arr.length-1;
 for(let i=0;i<arr.length;i++){
 
     for(let j=0;i<arr.length;j++){
-        if(arr[i][left]){
-            continue;
-        }
-        if(arr[top][i]){
-            continue
-        }
-        if(arr[bottom][i]){
-            continue
-        }
-        if(arr[i][right]){
-            continue
-        }
-        else{
-            sum+=arr[i][j]
-        }
+        // if(arr[i][left]){
+        //     continue;
+           
+        // }
+        // left++
+
+        // if(arr[top][i]){
+        //     continue
+        // }
+        // top++;
         
+        // if(arr[bottom][i]){
+        //     continue
+        // }
+        // bottom--;
+
+        
+        // if(arr[i][right]){
+        //     continue
+        // }
+        // right--;
+
+        // else{
+        //     sum+=arr[i][j]
+        // }
+
+        if(i!=0 || i!=arr.length-1)
+        sum+=arr[i][j]
     }
 }
 console.log(sum)

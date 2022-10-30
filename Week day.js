@@ -1,6 +1,6 @@
 var arr=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
-var n=8
+var n=10
 var day="Wednesday"
 for(var i=0;i<arr.length;i++){
     if(arr[i]==day){
