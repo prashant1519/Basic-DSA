@@ -5,7 +5,7 @@ let k=7;
 let t=k%arr.length
 
 function rotate(arr,left,right){
-    // while(left<right){
+
     
 
     
@@ -17,7 +17,7 @@ function rotate(arr,left,right){
             swap(arr,t,arr.length-1)
         
 
-    // }
+
     
 }
 rotate(arr,left,right)
