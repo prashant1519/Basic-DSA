@@ -1,5 +1,5 @@
 let arr=[1,8,7,3,5]
-let k=3
+let k=2
 function takemax(arr,k){
     sum=0;
     max=-Infinity
@@ -23,3 +23,4 @@ function takemax(arr,k){
 
 takemax(arr,k)
 console.log(sum);
+// console.log(sum);
