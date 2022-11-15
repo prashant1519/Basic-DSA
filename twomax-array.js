@@ -23,4 +23,4 @@ function takemax(arr,k){
 
 takemax(arr,k)
 console.log(sum);
- console.log(sum);
+// console.log(sum);
