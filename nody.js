@@ -18,3 +18,4 @@ for(var i=0;i<arr.length;i++){
     
 }
 console.log(count)
+// console.log(count)
