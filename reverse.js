@@ -14,4 +14,4 @@ while(left<right){
      left++;
      right--;
 }
-// console.log(arr)
+console.log(arr)
