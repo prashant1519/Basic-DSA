@@ -21,7 +21,7 @@ function rotate(arr,left,right){
     
 }
 rotate(arr,left,right)
-console.log(arr,);
+// console.log(arr,);
 
 
 
