@@ -1,46 +1,58 @@
-let arr=[1,2,3,4]
-let left=0
-let right=arr.length-1;
-let k=7;
-let t=k%arr.length
+// let arr=[1,2,3,4]
+// let left=0
+// let right=arr.length-1;
+// let k=7;
+// let t=k%arr.length
 
-function rotate(arr,left,right){
-
-    
+// function rotate(arr,left,right){
 
     
-            reverse(arr,left,right)
+
+    
+//             reverse(arr,left,right)
           
         
-            swap(arr,0,t-1)
+//             swap(arr,0,t-1)
 
-            swap(arr,t,arr.length-1)
+//             swap(arr,t,arr.length-1)
         
 
 
     
-}
-rotate(arr,left,right)
-// console.log(arr,);
+// }
+// rotate(arr,left,right)
+// // console.log(arr,);
 
 
 
-function reverse(arr,left,right){
-    while(left<right){
+// function reverse(arr,left,right){
+//     while(left<right){
 
-        swap(arr,left,right)
-        left++;
-        right--;
-    }
+//         swap(arr,left,right)
+//         left++;
+//         right--;
+//     }
     
-}
+// }
 
-function swap(arr,left,right){
-    let temp=arr[left]
-    arr[left]=arr[right]
-    arr[right]=temp
+// function swap(arr,left,right){
+//     let temp=arr[left]
+//     arr[left]=arr[right]
+//     arr[right]=temp
 
+// }
+
+var arr=[0,1,2,3,5,6,7]
+
+
+for(var i=1;i<arr.length;i++){
+    if(arr[i] != i){
+       
+        
+    }
 }
+console.log(i);
+
 
 
 
