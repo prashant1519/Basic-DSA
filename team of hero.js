@@ -16,4 +16,4 @@ for(let i=0;i<arr.length;i++){
     }
 
 }
-console.log(ans,i,j)
+console.log(ans)
