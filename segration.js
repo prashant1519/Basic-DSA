@@ -36,4 +36,4 @@ else if(q==2){
   
     
 }
-console.log( bag+bag1 )
+console.log( bag1+bag )
