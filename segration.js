@@ -33,7 +33,6 @@ else if(q==2){
         }
     }
     
-  
+    console.log(bag+ bag)
     
 }
-console.log( bag1+bag )
